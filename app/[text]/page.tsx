@@ -7,15 +7,15 @@ export const metadata = {
 
 interface PageProps {
 	params: {
-		id: string;
+		text: string;
 	};
 }
 
-function Page({ params: { id } }: PageProps) {
+function DynamicPage({ params: { text } }: PageProps) {
 	return (
 		<div className=''>
 			Dynamic page param:{' '}
-			<span className='text-xl font-bold text-sky-500'>{id}</span>
+			<span className='text-xl font-bold text-sky-500'>{text}</span>
 			<Link href={'/'} className='block text-center'>
 				<button className='mt-8 px-8 py-4 bg-sky-900 rounded-xl'>
 					Main Page
@@ -25,4 +25,4 @@ function Page({ params: { id } }: PageProps) {
 	);
 }
 
-export default Page;
+export default DynamicPage;
