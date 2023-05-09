@@ -9,8 +9,6 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@tensorflow-models/coco-ssd": "^2.2.2",
-		"@tensorflow/tfjs": "^4.5.0",
 		"@types/node": "20.0.0",
 		"@types/react": "18.2.5",
 		"@types/react-dom": "18.2.3",
